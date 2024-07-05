@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 from flask import url_for, redirect
 
-pages = {'Home':'home', 'About':'about', 'Contact':'contact'}
+pages = {'Home' : 'home', 'About' : 'about', 'Contact' : 'contact'}
 
 app = Flask(__name__)
 
