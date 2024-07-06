@@ -1,7 +1,7 @@
 <html>
     <body>
         <h1>Every other page will build off this one</h1>
-        <div>
+        <div class="index_con">
             {% block content %}
             <li><a href="{{ url_for(pages[page]) }}">{{ page }}</a></li>
             {% endblock %}
